@@ -75,7 +75,7 @@ def desenvolvedor(id):
     if request.method == 'GET':
         try:
             response = desenvolvedores[id]
-            print(desenvolvedor)
+            print(response)
         except IndexError:
             mensagem = f'Registro {id} não existe'
             response = {'status':'Falha', 'mensagem':mensagem}

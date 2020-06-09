@@ -29,6 +29,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Projeto_Flask\funhabilidade.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Projeto_Flask\viewsRestful.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="Projeto_Flask\__init__.py" />
     <Compile Include="Projeto_Flask\views.py" />
